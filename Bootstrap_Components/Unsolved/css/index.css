@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: rgb(88, 77, 88);
 }
 
 footer {
@@ -18,10 +18,27 @@ footer {
   margin: 0 auto;
   background-color: thistle;
 }
-.signUp form {
+form {
   margin: 35px auto;
   background-color: #f2f2f2;
   padding: 25px;
   border-radius: 7px;
   background-color: thistle;
+}
+.btn {
+  background-color: rgb(88, 77, 88);
+  color: white;
+  font-size: 16px;
+}
+
+h2 {
+  color: white;
+}
+
+.navbar {
+  background-color: thistle;
+}
+
+.jumbotron {
+  background-color: rgb(223, 211, 223);
 }
