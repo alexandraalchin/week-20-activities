@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+  color: white;
+}
 footer {
   position: absolute;
   width: 100%;
@@ -8,16 +12,32 @@ footer {
 } 
 .cardContainer {
   margin-top: 20px;
+  text-align: center;
 }
 .card {
   margin: 0 auto;
+  height: 400px;
+  background-color: rgb(206, 158, 158);
+  border: 1px solid rgb(122, 92, 92);
+  color: black;
 }
-
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+.content {
+  padding: 50px;
+}
+.sectionHeading {
+  text-align: center;
+}
+.showsNear {
+  padding: 0px 30px 30px 30px;
+}
 h1, h2, h3, h4, h5, h6 {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-weight: bold !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
 }
-
 p {
   font-family:Arial, Helvetica, sans-serif;
   font-size: 16px !important;
@@ -30,55 +50,89 @@ p {
   background-size: cover;
   z-index: 10;
 }
-
 .customNav a {
   color: white !important;
   font-size: 15px;
 }
-
 .navbar-nav {
   margin-left: auto;
   margin-right:  0 !important;
 }
-
 .navbar-brand img {
   padding-right: 15px;
   width: 65px;
 }
-
 .nav-item {
   margin: 0px 15px;
 }
-
 .dropdown-menu {
   background: url("../images/transparency.png");
   background-color: transparent !important;
   background-size: cover;
   margin: 10px;
 }
-
 .dropdown-item:focus, .dropdown-item:hover {
   color: #16181b;
   text-decoration: none;
   background: black;
 }
-
 .jumbotron {
-  background-image: url(../images/rockOn_dark.jpg);
+  background-image: url("../images/BRUTALL.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 500px;
   height: calc(100vh - 25px);
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   border-radius: 0px;
 }
-
 .jumboCopy {
   width: 70%;
   min-width: 500px;
   max-width: 700px;
   color: white;
   text-align: center;
+}
+.display-4 {
+  margin-top: 50px;
+}
+.sideAccent {
+  background: #007bff;
+  width: 15px;
+}
+.imageContainer img {
+  width: 100%;
+}
+.imageContainer {
+  padding: 50px;
+}
+.valueProp {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.emailContain {
+  background: url(../images/metal-clown.jpeg);
+  background-size: cover;
+  display: flex;
+  object-position: top;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+form {
+  width: 500px;
+  margin: 35px auto;
+  padding: 45px;
+  border: 1px solid rgb(122, 92, 92);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.1);
+  background-color: rgb(206, 158, 158);
+  border-radius: 5px;
+  color: black;
+}
+.card-text {
+  color: black;
 }
