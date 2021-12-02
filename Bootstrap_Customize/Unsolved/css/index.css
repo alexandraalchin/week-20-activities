@@ -14,11 +14,13 @@ footer {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Anton', sans-serif;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold !important;
 }
 
 p {
-  font-family: 'Jura', sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 16px !important;
 }
 .customNav {
   position: fixed;
@@ -52,10 +54,31 @@ p {
   background: url("../images/transparency.png");
   background-color: transparent !important;
   background-size: cover;
+  margin: 10px;
 }
 
 .dropdown-item:focus, .dropdown-item:hover {
   color: #16181b;
   text-decoration: none;
   background: black;
+}
+
+.jumbotron {
+  background-image: url(../images/rockOn_dark.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+}
+
+.jumboCopy {
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: white;
+  text-align: center;
 }
