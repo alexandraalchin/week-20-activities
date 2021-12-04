@@ -5,8 +5,29 @@
         <title>Travel California</title>
     </head>
     <body>
-        <section>
-            <nav></nav>
+        <section id="hero" name="top">
+            <nav class="navbar navbar-expand-lg navbar-light ">
+                <div class="menu container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/visitcalifornia-logo.png"></a>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Travel</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Desinations</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link " href="#">Map</a>
+                        
+                      </li>
+                    </ul>
+                   
+                  </div>
+                  <p class="hamburger"> <img src="images/hamburger-menu.png"></p>
+                </div>
+              </nav>
+
             <div class="jumbotron">
                 <div class="hero-section">
                     <h1 class="hero-header"><span>Travel</span> California</h1>
@@ -14,7 +35,7 @@
               </div>
             </div>
         </section>
-        <section>
+        <section id="experience">
             <div class="experience-section">
                 <h2 class="experience-header"> <span class="yellow">Experience</span> Adventure</h2>
                 <div class="container-fluid">
@@ -26,7 +47,7 @@
                                     <p class="card-icon"><img src="images/icon-plane.png"></p>
                                     <h3>Book Your Flight</h3>
                                     <p>Make a reservation with us, we make it easy to find affordable flights. No hassle no problems!</p>
-                                    <a class="btn btn primary" href="#" role="button">Book Now</a>
+                                    <a class="btn btn-primary" href="#" role="button">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -37,7 +58,7 @@
                                     <p class="card-icon"><img src="images/icon-plane.png"></p>
                                     <h3>Make A Reservation</h3>
                                     <p>Find the highest quality hotels from our curated list of places to rest and relax.</p>
-                                    <a class="btn btn primary" href="#" role="button">Book Now</a>
+                                    <a class="btn btn-primary" href="#" role="button">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -48,7 +69,7 @@
                                     <p class="card-icon"><img src="images/icon-plane.png"></p>
                                     <h3>Plan Your Visit</h3>
                                     <p>You don’t have to just jump in! Use our online tools to plan your trip for the best experience.</p>
-                                    <a class="btn btn primary" href="#" role="button">Book Now</a>
+                                    <a class="btn btn-primary" href="#" role="button">Book Now</a>
                                 </div>
                             </div>
                         </div>
@@ -57,9 +78,103 @@
                 </div>
             </div>
         </section>
-        <section></section>
-        <section>
-            <footer></footer>
+
+        <section id="popular">
+            <div class="popular-section">
+                <h2 class="popular-header"> <span class="yellow">Popular</span> Destinations</h2>
+                <div class="container-fluid">
+                    <div class="row">
+
+                        <div class="popular-item col-lg-4 col-med-12 col-sm-12">
+                            <div class="popular-card yosemite">
+                                <div class="card-items">
+                                    <div class="heading">
+                                        <h3>Yosemite National Park</h3>
+                                        <div class="rating">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star-gray.png">
+                                        </div>
+                                    </div>
+                                    <div class="learn-more">
+                                        <p>Yosemite National Park is in California’s Sierra Nevada mountains. It’s famed for its giant, ancient sequoia trees, and for Tunnel View...</p>
+                                        <a class="btn btn-more" href="#" role="button">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popular-card joshua">
+                                <div class="card-items">
+                                    <div class="heading">
+                                        <h3>Joshua Tree National Park</h3>
+                                        <div class="rating">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star-gray.png">
+                                        </div>
+                                    </div>
+                                    <div class="learn-more">
+                                        <p>Joshua Tree National Park is a vast protected area in southern California. It's characterized by rugged rock formations and stark desert landscapes...</p>
+                                        <a class="btn btn-more" href="#" role="button">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popular-card san-fran">
+                                <div class="card-items">
+                                    <div class="heading">
+                                        <h3>San Francisco</h3>
+                                        <div class="rating">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star.png">
+                                            <img src="images/star-gray.png">
+                                        </div>
+                                    </div>
+                                    <div class="learn-more">
+                                        <p>San Francisco, officially the City and County of San Francisco, is a cultural, commercial, and financial center in Northern California....</p>
+                                        <a class="btn btn-more" href="#" role="button">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="subscribe">
+            <div class="form-container"> 
+                <h2>Join our mailing list </h2>
+                <p> Sign up to get the latest in hot details and attractions</p>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Enter a Valid Email Address" aria-label="Search">
+                  <button class="btn btn-primary" type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <footer>
+                <div> 
+                    <ul class="">
+                      <li class="">
+                        <a class="active" aria-current="page" href="#">Travel</a>
+                      </li>
+                      <li class="">
+                        <a class="" href="#">Desinations</a>
+                      </li>
+                      <li class="">
+                        <a class="" href="#">Map</a> 
+                      </li>
+                    </ul>
+                </div>
+            </footer>
         </section>
     </body>
 </html>
