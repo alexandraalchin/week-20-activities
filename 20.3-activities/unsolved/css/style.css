@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+#hero {
+    background-image: url("../images/hero.png");
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+nav {
+    padding: 15px;
+}
+nav img {
+    padding-top: 10px;
+}
+nav .hamburger {
+    width: 180px;
+    text-align: right;
+}
+.nav-link.active {
+    font-weight: 800;
+    text-decoration: underline;
+}
+.navbar-light .navbar-nav .nav-link {
+    color:white !important;
+}
+.navbar-collapse {
+    flex-grow: unset;
+}
+.navbar-expand-lg .navbar-nav li {
+    padding: 10px;
+    padding-top: 5px;
+}
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+}
+.jumbotron p {
+    text-align: center;
+    padding-top: 50px;
+}
+.jumbotron h1 {
+    color: white;
+    font-weight: 800;
+    font-size: 50px;
+}
+.jumbotron h1 span {
+    font-weight: 300;
+}
+#experience {
+    margin-top: 25px;
+    margin-bottom: 200px;
+}
+#experience h2 {
+    text-align: center;
+
+}
+#experience .experience-card {
+    background-image: url("../images/adventure-card.png");
+    background-size: cover;
+    height: 565px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}  
+.experience-card .card-items {
+    margin-left:40px;
+    margin-right:60px;
+    color:white;
+}   
+.btn-primary {
+    background-color:#ff9900;
+    border-color: #ff9900;
+    border-radius: 0;
+    border-radius: 5px;
+}
+.btn-primary:hover {
+    background-color:#c47703;
+    border-color: #c47703;
+}
+.experience-card .card-items .card-icon {
+    width:75%;
+}
+h2 .yellow {
+    color:#ff9900;
+    font-size: 60%;
+    display: block;
+    font-weight:normal;
+}
